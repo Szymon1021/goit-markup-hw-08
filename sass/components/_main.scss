@@ -1,0 +1,102 @@
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px), screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px), screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
+    .main-section {
+            background-color: #2f303a;
+            background-image: url("../images/mobile_bg/Header_bg_mobile2x.jpg");
+        }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .main-section {
+    background-color: #2f303a;
+    background-image: url("../images/mobile_bg/Header_bg_mobile1x.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 480px 580px;
+}
+
+.main-section__descripton {
+font-weight: 900;
+font-size: 26px;
+line-height: 1.615;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+font-family: normal;
+padding-left: 58px;
+padding-top: 118px;
+padding-bottom: 198px;
+
+}
+.main-section__button {
+width: 200px;
+height: 50px;
+border-radius: 4px;
+background-color: var(--brand-color);
+cursor: pointer;
+color: #fff;
+box-shadow: 0px 4px 4px rgb (0, 0, 0, 0.15);
+font-size: 16px;
+ border: 1px solid var(--brand-color);
+padding-top: 232px;
+padding-left: 140px;
+padding-bottom: 118px;
+&-text {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.06em;
+color: var(--color-white);
+}
+}
+}
+
+// .main-section {
+//     background-color: #2f303a;
+//     background-image: url("../images/team.jpg");
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: cover;
+//     box-sizing: border-box;
+//     height: 600px;
+//     max-width: 1600px;
+//     margin: 0 auto;
+
+
+// &__text {
+//     display: flex;
+//     align-items: center;
+//     height: 600px;
+//     justify-content: center;
+//     flex-direction: column;
+// }
+
+// &__descripton {
+//     color: #fff;
+//     font-size: 44px;
+//     font-weight: 900;
+//     line-height: 1.363em;
+//     letter-spacing: 0.06em;
+//     text-align: center;
+//     text-transform: uppercase;
+//     width: 696px;
+//     margin-bottom: 30px;
+// }
+// }
+// .main-section__button {
+//     width: 200px;
+//     height: 50px;
+//     border-radius: 4px;
+//     background-color: var(--brand-color);
+//     cursor: pointer;
+//     color: #fff;
+//     box-shadow: 0px 4px 4px rgb (0, 0, 0, 0.15);
+//     font-size: 16px;
+//     border: 1px solid var(--brand-color);
+
+
+// &-text {
+//     font-weight: 700;
+//     font-size: 16px;
+//     line-height: 30px;
+//     letter-spacing: 0.06em;
+//     color: var(--color-white);
+// }
+// }
