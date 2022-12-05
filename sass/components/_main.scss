@@ -1,0 +1,56 @@
+
+
+.main-section {
+    background-color: #2f303a;
+    background-image: url("../images/mobile_bg/Header_bg_mobile1x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    background-size: 480 400;
+    margin: 0 auto;
+
+
+&__text {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+&__descripton {
+font-weight: 900;
+font-size: 26px;
+line-height: 1.615;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+text-align: center;
+text-transform: uppercase;
+max-width: 365px;
+margin-bottom: 30px;
+max-height: 84px;
+   
+}
+.main-section__button {
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: var(--brand-color);
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0px 4px 4px rgb (0, 0, 0, 0.15);
+    font-size: 16px;
+    border: 1px solid var(--brand-color);
+    margin-top: 30px;
+
+
+&-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: var(--color-white);
+}
+}
+}
