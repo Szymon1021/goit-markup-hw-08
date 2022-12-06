@@ -122,38 +122,35 @@
     margin: 0 auto;
     max-width: 100%;
     padding: 0 15px;
+    
+   
+    
 
 &__form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+    padding: 0;
+    margin: 0;
+
 }
 
 &__label {
     text-align: center;
-    display: block;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    margin: 0;
+    margin: 0 auto;
     text-transform: uppercase;
     padding-bottom: 20px;
     color: var(--color-white);
     padding-bottom: 20px;
+    display: block;
 }
 
 &__input {
-    background-size: 450px;
-    max-width: 100%;
+    width: 100%;
     font-size: 16px;
     line-height: 1.25;
-    padding-top: 15px;
-    padding-right: 0px;
-    padding-bottom: 15px;
-    padding-left: 15px;
+    padding: 15px 16px;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow (0px 4px 4px rgba (0, 0, 0, 0.15));
