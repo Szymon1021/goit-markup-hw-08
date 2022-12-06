@@ -1,7 +1,7 @@
 .header {
     border-bottom: 1px solid var(--line);
     margin: 0 auto;
-    background-size: 480;
+    // background-size: 480;
 }
 
 .header .container {
@@ -24,6 +24,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
+   
 }
 
 .logo {
@@ -38,6 +39,8 @@
 
 .logo__header {
     color: var(--brand-color);
+    max-width: 134px;
+    max-height: 28px;
 }
 
 .header__menu {

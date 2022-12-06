@@ -6,7 +6,7 @@
 }
 
 .section {
-  padding: 60px 0px 60px 0px;
+  padding: 60px 15px 60px 15px;
   margin: 0 auto;
 }
 
@@ -38,7 +38,6 @@
 .header {
   border-bottom: 1px solid var(--line);
   margin: 0 auto;
-  background-size: 480;
 }
 
 .header .container {
@@ -73,6 +72,8 @@
 
 .logo__header {
   color: var(--brand-color);
+  max-width: 134px;
+  max-height: 28px;
 }
 
 .header__menu {
@@ -668,7 +669,7 @@
   flex-wrap: wrap;
   list-style: none;
   justify-content: space-between;
-  max-width: 450px;
+  width: 100%;
   background-size: cover;
   padding-left: 0px;
   gap: 15px;
@@ -699,8 +700,11 @@
   justify-content: center;
   flex-direction: column;
   padding-left: 0px;
+  background-size: cover;
   padding-right: 0px;
   margin: 0 auto;
+  align-items: center;
+  background-size: 480px;
 }
 .footer__style {
   display: flex;
@@ -795,14 +799,15 @@
 .newsletter {
   padding-top: 30px;
   margin: 0 auto;
-  max-width: 100%;
   padding: 0 15px;
+  width: 480px;
 }
 .newsletter__form {
   padding: 0;
   margin: 0;
 }
 .newsletter__label {
+  width: 100%;
   text-align: center;
   font-size: 14px;
   font-weight: 700;
@@ -829,17 +834,15 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .newsletter__button {
-  width: 200px;
-  height: 50px;
+  max-height: 50px;
+  max-width: 200px;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.06em;
-  display: inline-flex;
   align-items: center;
   text-align: center;
-  padding-left: 42px;
-  margin-left: 12px;
-  margin-top: 30px;
+  margin: 0 auto;
+  margin-top: 10px;
   border-radius: 4px;
   border: none;
   cursor: pointer;
@@ -847,6 +850,7 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
 }
 .newsletter__button-span {
   font-weight: 700;

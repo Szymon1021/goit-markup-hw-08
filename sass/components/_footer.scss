@@ -4,18 +4,20 @@
     justify-content: center;
     flex-direction: column;
     padding-left: 0px;
-    // background-size: cover;
+    background-size: cover;
     padding-right: 0px;
     // max-width: 480px;
     // max-height: 603px;
     margin: 0 auto;
+    align-items: center;
+    background-size: 480px;
 
 
 &__style {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    justify-content: center;
+   justify-content: center;
 }
 
 &__logo {
@@ -120,8 +122,8 @@
 .newsletter {
     padding-top: 30px;
     margin: 0 auto;
-    max-width: 100%;
     padding: 0 15px;
+    width: 480px;
     
    
     
@@ -133,6 +135,7 @@
 }
 
 &__label {
+    width: 100%;
     text-align: center;
     font-size: 14px;
     font-weight: 700;
@@ -158,20 +161,19 @@
     color: rgba(255, 255, 255, 0.6);
     transition: border-color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 &__button {
-    width: 200px;
-    height: 50px;
+    max-height: 50px;
+    max-width: 200px;
     font-size: 16px;
     font-weight: 700;
     letter-spacing: 0.06em;
-    display: inline-flex;
     align-items: center;
     text-align: center;
-    padding-left: 42px;
-    margin-left: 12px;
-    margin-top: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
     border-radius: 4px;
     border: none;
     cursor: pointer;
@@ -179,7 +181,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+    display: block;
 
 &-span {
     font-weight: 700;
