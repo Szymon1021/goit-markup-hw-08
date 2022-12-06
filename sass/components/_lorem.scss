@@ -1,34 +1,42 @@
 .lorem {
     justify-content: center;
     flex-direction: column;
-    padding-left: 0px;
+    padding-left: 15px;
     padding-bottom: 60px;
     padding-top: 60px;
-    background-size: 480px;
-    background-size: cover;
-    padding-right: 0px;
+    margin: 0 auto;
+    padding-right: 15px;
+    
+   
 
 &__list {
-    width: 480px;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 &__icon {
     display: flex;
-    width: 450px;
-    height: 120px;
+    
     background: #f5f4fa;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
     margin-bottom: 30px;
+    margin: 0 auto;
+    // background-size: cover;
+    width: 480px;
+    height: 120px;
+    
 }
 
 &__title {
     font-size: 14px;
     line-height: 1.14em;
     font-weight: 700;
+    text-align: center;
+    padding-left: 165px;
+    
 }
 
 &__text {
@@ -40,6 +48,7 @@
     text-align: left;
     justify-content: flex-end;
     display: flex;
-    max-width: 450px;
+    // max-width: 450px;
+    margin: 0 auto;
 }
 }

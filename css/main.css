@@ -1,25 +1,15 @@
 .container {
-  max-width: 100%;
-  padding: 0px 10px;
+  max-width: 480px;
+  padding: 0px;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .section {
-  padding: 60px 15px 60px 15px;
+  padding: 60px 0px 60px 0px;
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 480px) {
-  .container {
-    max-width: 480px;
-    padding: 0px;
-    margin: 0 auto;
-    background-size: cover;
-  }
-  .section {
-    padding: 60px 15px 60px 15px;
-    max-width: 480px;
-    background-size: cover;
-  }
-}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -47,9 +37,8 @@
 
 .header {
   border-bottom: 1px solid var(--line);
-  margin-left: 15px auto;
-  margin-right: 10px auto;
-  background-size: 480 400;
+  margin: 0 auto;
+  background-size: 480;
 }
 
 .header .container {
@@ -60,8 +49,9 @@
 .header__style {
   display: flex;
   justify-content: space-between;
-  max-width: 480px;
   padding-left: 10px;
+  margin: 0 auto;
+  max-width: 480px;
 }
 
 .header__nav {
@@ -498,32 +488,34 @@
 .lorem {
   justify-content: center;
   flex-direction: column;
-  padding-left: 0px;
+  padding-left: 15px;
   padding-bottom: 60px;
   padding-top: 60px;
-  background-size: 480px;
-  background-size: cover;
-  padding-right: 0px;
+  margin: 0 auto;
+  padding-right: 15px;
 }
 .lorem__list {
-  width: 480px;
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 .lorem__icon {
   display: flex;
-  width: 450px;
-  height: 120px;
   background: #f5f4fa;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
   margin-bottom: 30px;
+  margin: 0 auto;
+  width: 480px;
+  height: 120px;
 }
 .lorem__title {
   font-size: 14px;
   line-height: 1.14em;
   font-weight: 700;
+  text-align: center;
+  padding-left: 165px;
 }
 .lorem__text {
   font-size: 14px;
@@ -534,7 +526,7 @@
   text-align: left;
   justify-content: flex-end;
   display: flex;
-  max-width: 450px;
+  margin: 0 auto;
 }
 
 .work {
@@ -583,9 +575,8 @@
   padding-left: 0px;
   padding-bottom: 60px;
   padding-top: 60px;
-  background-size: 480px;
-  background-size: cover;
   padding-right: 0px;
+  margin: 0 auto;
 }
 .team__title {
   font-size: 36px;

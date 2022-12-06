@@ -1,8 +1,7 @@
 .header {
     border-bottom: 1px solid var(--line);
-    margin-left: 15px auto;
-    margin-right: 10px auto;
-    background-size: 480 400;
+    margin: 0 auto;
+    background-size: 480;
 }
 
 .header .container {
@@ -13,8 +12,10 @@
 .header__style {
     display: flex;
     justify-content: space-between;
-    max-width: 480px;
     padding-left: 10px;
+    margin: 0 auto;
+    max-width: 480px;
+
     
 }
 
