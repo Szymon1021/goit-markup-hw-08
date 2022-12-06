@@ -20,7 +20,8 @@
 &__person {
     display: block;
     justify-content: space-between;
-    padding: 30px 15px;
+    // padding: 30px 15px;
+    padding-left: 0px;
 }
 
 &__list {
@@ -30,6 +31,14 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: #fff;
+    margin: 0 auto;
+    
+
+    
+}
+&__figure {
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 &__name {
