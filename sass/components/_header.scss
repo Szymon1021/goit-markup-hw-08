@@ -14,7 +14,9 @@
     justify-content: space-between;
     padding-left: 10px;
     margin: 0 auto;
-    max-width: 480px;  
+    max-width: 480px;
+    height: 60px;
+    align-items: center;
 }
 
 .header__nav {
@@ -280,30 +282,37 @@ border: #2196f3;
 @media screen and (min-width: 768px) {
 .header {
     border-bottom: 1px solid var(--line);
-    
+    margin: 0 auto;
     }
 .header .container {
-    display: flex;
+    
     align-items: center;
-    justify-content: space-between;
+    
+    
     }
     .header__style {
             display: flex;
             justify-content: space-between;
-            padding-left: 15px;
+            padding-left: 0px;
             margin: 0 auto;
             max-width: 768px;
+            margin-right: 0px;
+            margin-left: 0px;
+            align-items: center;
+
+            
         }
         .header__nav {
-            padding: 26px 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 25px 10px;
+            padding: 26px 10px;
+            width: 168px;
+            height: 18px;
         }
     
         .logo {
-            margin-right: 90px;
+            margin-right: 0px;
             font-family: Raleway;
             font-weight: 700;
             font-size: 26px;
@@ -314,6 +323,8 @@ border: #2196f3;
     
         .logo__header {
             color: var(--brand-color);
+            max-width: 134px;
+            max-height: 28px;
         }
     
         .header__menu {
@@ -321,6 +332,7 @@ border: #2196f3;
             align-items: center;
             list-style: none;
             text-decoration: none;
+            justify-content: space-between;
         }
     
         .header__menu a {
@@ -341,6 +353,8 @@ border: #2196f3;
             line-height: 1.14;
             transition: color 250ms;
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            width: 53px;
+            height: 18px;
         }
     
         .header__menu-link:hover,
@@ -380,7 +394,7 @@ border: #2196f3;
         .header__contact-link {
             color: var(--color-third);
             line-height: 1.14em;
-            margin-right: 30px;
+            margin-right: 10px;
             transition: color 250ms, fill 250ms;
             transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             text-decoration: none;
