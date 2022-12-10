@@ -20,8 +20,9 @@
     <header class="header">
         <div class="container">
             <div class="header__style">
-                    <a class="logo" href="index.html"><span class="logo__header">Web</span>Studio</a>
                 <nav class="header__nav">
+                    <a class="logo" href="index.html"><span class="logo__header">Web</span>Studio</a>
+                
                     <ul class="header__menu">
                         <li class="header__menu-list">
                             <a class="header__menu-link active" href="index.html">Agencja
@@ -131,7 +132,7 @@
                 </ul>
             </div>
         </section> 
-        <!-- <section class="work">
+        <section class="work">
             <div class="container">
                 <h2 class="work__title">Czym się zajmujemy</h2>
                 <ul class="work__list">
@@ -152,7 +153,7 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
 
         <section class="team section">
             <div class="container">
@@ -160,12 +161,15 @@
                 <ul class="team__person">
                     <li class="team__list">
                         <figure class="team__figure">
-                            <img src="./images/mobile/img-mobile.jpg" 
+                            
+                            <img class="team__img" src="./images/p4.jpg" 
                             srcset="./images/mobile/img-mobile.jpg 450w,
                             ./images/mobile/img2x.jpg 900w,
                             ./images/tablet/tablet.jpg 354w,
-                            ./images/tablet/tablet2x.jpg 768w" 
-                            alt="zdjęcie John Doe Product Designer" />
+                            ./images/tablet/tablet2x.jpg 708w"
+                            sizes="(min-width: 480px) 450px, (min-width: 767px) 354px, 90vw"
+                            alt="zdjęcie John Doe Product Designer" /> 
+                            
                             <figcaption>
                                 <h4 class="team__name">John Doe</h4>
                                 <p class="team__occupation">Product Designer</p>
@@ -204,11 +208,12 @@
                     </li>
                     <li class="team__list">
                         <figure class="team__figure">
-                            <img src="./images/mobile/img-mobile1.jpg" 
+                            <img class="team__img" src="./images/mobile/img-mobile1.jpg" 
                             srcset="./images/mobile/img-mobile1.jpg 450w,
                            ./images/mobile/img12x.jpg 900w,
                             ./images/tablet/tablet1.jpg 354w,
-                            ./images/tablet/tablet12x.jpg 768w" 
+                            ./images/tablet/tablet12x.jpg 708w"
+                            sizes="(min-width: 480px) 450px, (min-width: 767px) 354px, 90vw" 
                             alt="zdjęcie kobiety Frontende Developer" />
                             <figcaption>
                                 <h4 class="team__name">John Doe</h4>
@@ -247,12 +252,13 @@
                         </figure>
                     </li>
                     <li class="team__list">
-                        <figure class="team__figure">>
-                            <img src="./images/mobile/img2.jpg" 
+                        <figure class="team__figure">
+                            <img class="team__img" src="./images/mobile/img2.jpg" 
                             srcset="./images/mobile/img2.jpg 450w,
                             ./images/mobile/img2@2x.jpg 900w,
                             ./images/tablet/tablet2.jpg 354w,
-                            ./images/tablet/tablet22x.jpg 768w" 
+                            ./images/tablet/tablet22x.jpg 708w"
+                            sizes="(min-width: 480px) 450px, (min-width: 767px) 354px, 90vw" 
                             alt="zdjęcie John Doe Marketing" />
                             <figcaption>
                                 <h4 class="team__name">John Doe</h4>
@@ -292,12 +298,14 @@
                     </li>
                     <li class="team__list">
                         <figure class="team__figure">
-                            <img src="./images/mobile/img.jpg" 
+                            <img class="team__img" src="./images/mobile/img.jpg" 
                             srcset="./images/mobile/img.jpg 450w,
                             /images/mobile/img@2x.jpg 900w,
                             ./images/tablet/tablet3.jpg 354w,
-                            ./images/tablet/tablet32x.jpg 768w"
-                            alt="zdjęcie John Doe UI Designer" />
+                            ./images/tablet/tablet32x.jpg 708w"
+                            sizes="(min-width: 480px) 450px, (min-width: 767px) 354px, 90vw"
+                            alt="zdjęcie John Doe UI Designer" 
+                            style="width: 100%;"/>
                             <figcaption>
                                 <h4 class="team__name">John Doe</h4>
                                 <p class="team__occupation">UI Designer</p>

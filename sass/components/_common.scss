@@ -19,7 +19,7 @@
     }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
     .container{
         max-width: 768px;
         padding: 0px;
@@ -42,7 +42,7 @@
             position: absolute;
             left: 0;
             right: 0;
-            top: 48px;
+            top: 38px;
             height: 4px;
             border-radius: 10px 10px 10px 10px;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -50,15 +50,54 @@
         input {
             outline: none
 }
-
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+            background-size: cover;
+}
 }
 
 @media screen and (min-width: 1200px) {
-    .container {
-    max-width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
+.container {
+        max-width: 100%;
+        margin: 0 auto;
+        align-items: center;
+        padding: 0 15px;
     }
+
+    .section {
+        padding: 94px 0px 94px 0px;
+        align-items: center;
+    }
+    * {
+        color: black;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        }
+ a:hover,
+ a:focus {
+     color: var(--brand-color);
+ }   
+   .flex {
+       display: flex;
+   }
+
+   .active::after {
+       content: "";
+       position: absolute;
+       left: 0;
+       right: 0;
+       top: 76px;
+       height: 4px;
+       border-radius: 10px 10px 10px 10px;
+       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   }
+
+   input {
+       outline: none
+   }
 }
 
 // * {
@@ -76,10 +115,12 @@ body {
     margin: 0 auto;
 }
 
-// img {
-//     display: block;
-//     object-fit: cover;
-// }
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
 
 // a:hover,
 // a:focus {

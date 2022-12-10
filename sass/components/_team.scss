@@ -40,6 +40,9 @@
     margin: 0 auto;
     max-width: 100%;
 }
+&__img {
+    width: 100%;
+}
 
 &__name {
     font-weight: 700;
@@ -109,6 +112,10 @@
             padding-top: 60px;
             padding-right: 0px;
             margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin: 0 15px;
     
             &__title {
                 font-size: 36px;
@@ -120,29 +127,39 @@
             }
     
             &__person {
-                display: block;
+                display: flex;
+                flex-wrap: wrap;
                 justify-content: space-between;
-                // padding: 30px 15px;
-                padding-left: 0px;
-            }
+                max-width: 100%;
+                row-gap: 30px;
+                }
+            
     
             &__list {
-                list-style-type: none;
-                text-align: center;
-                box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-                    0px 2px 1px rgba(0, 0, 0, 0.2);
-                border-radius: 0px 0px 4px 4px;
-                background-color: #fff;
-                margin: 0 auto;
-    
+                padding-bottom: 0;
+    list-style-type: none;
+        text-align: center;
+        box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+        border-radius: 0px 0px 4px 4px;
+        background-color: #fff;
+        margin: 0 auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 354px;
+        background-size: cover;
     
     
             }
     
             &__figure {
-                margin: 0 auto;
-                max-width: 100%;
+                background-color: #fff;
+                box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+                border-radius: 0px 0px 4px 4px;
+                text-align: center;
+                display: block;
             }
+            
+            
     
             &__name {
                 font-weight: 700;
@@ -160,13 +177,14 @@
                 padding-bottom: 16px;
                 font-size: 16px;
             }
-        }
+        
+        
     
         .team__socials {
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 30px;
+            margin-bottom: 0px;
             margin-left: auto;
             margin-right: auto;
             gap: 10px;
@@ -200,7 +218,11 @@
     
         .team__section {
             padding: 60px 15px 60px 15px;
-            max-width: 480px;
+            max-width: 768px;
             background-size: cover;
         }
+}
+}
+@media screen and (min-width: 1200px) {
+    
 }
