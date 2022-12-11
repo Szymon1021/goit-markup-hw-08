@@ -166,8 +166,10 @@
                             srcset="./images/mobile/img-mobile.jpg 450w,
                             ./images/mobile/img2x.jpg 900w,
                             ./images/tablet/tablet.jpg 354w,
-                            ./images/tablet/tablet2x.jpg 708w"
-                            sizes="(min-width: 480px) 450px, (min-width: 767px) 354px, 90vw"
+                            ./images/tablet/tablet2x.jpg 708w,
+                            ./images/desktop/img.jpg 270w,
+                            .images/desktop/img2x.jpg 540w"
+                            sizes="(min-width: 480px) 450px, (min-width: 767px) 354px, (min-width: 1200px) 270px, 90vw"
                             alt="zdjęcie John Doe Product Designer" /> 
                             
                             <figcaption>
@@ -212,8 +214,11 @@
                             srcset="./images/mobile/img-mobile1.jpg 450w,
                            ./images/mobile/img12x.jpg 900w,
                             ./images/tablet/tablet1.jpg 354w,
-                            ./images/tablet/tablet12x.jpg 708w"
-                            sizes="(min-width: 480px) 450px, (min-width: 767px) 354px, 90vw" 
+                            ./images/tablet/tablet12x.jpg 708w,
+                            ./images/desktop/img2.jpg 270w,
+                            .images/desktop/img22x.jpg 540w"
+                            sizes="(min-width: 480px) 450px, (min-width: 767px) 354px, (min-width: 1200px) 270px, 90vw"
+                            
                             alt="zdjęcie kobiety Frontende Developer" />
                             <figcaption>
                                 <h4 class="team__name">John Doe</h4>
@@ -257,8 +262,11 @@
                             srcset="./images/mobile/img2.jpg 450w,
                             ./images/mobile/img2@2x.jpg 900w,
                             ./images/tablet/tablet2.jpg 354w,
-                            ./images/tablet/tablet22x.jpg 708w"
-                            sizes="(min-width: 480px) 450px, (min-width: 767px) 354px, 90vw" 
+                            ./images/tablet/tablet22x.jpg 708w,
+                            ./images/desktop/img4.jpg 270w,
+                            .images/desktop/img42x.jpg 540w"
+                            sizes="(min-width: 480px) 450px, (min-width: 767px) 354px, (min-width: 1200px) 270px, 90v"
+                            
                             alt="zdjęcie John Doe Marketing" />
                             <figcaption>
                                 <h4 class="team__name">John Doe</h4>
@@ -302,8 +310,13 @@
                             srcset="./images/mobile/img.jpg 450w,
                             /images/mobile/img@2x.jpg 900w,
                             ./images/tablet/tablet3.jpg 354w,
-                            ./images/tablet/tablet32x.jpg 708w"
-                            sizes="(min-width: 480px) 450px, (min-width: 767px) 354px, 90vw"
+                            ./images/tablet/tablet32x.jpg 708w,
+                            ./images/desktop/img3.jpg 270w,
+                            .images/desktop/img32x.jpg 540w"
+                            
+                            sizes="(min-width: 480px) 450px, (min-width: 767px) 354px, (min-width: 1200px) 270px, 90vw"
+                            
+                            
                             alt="zdjęcie John Doe UI Designer" 
                             style="width: 100%;"/>
                             <figcaption>
@@ -533,11 +546,22 @@
         </button>
     
         <ul class="mobile-menu">
-            <li><a href="" class="link">About</a></li>
-            <li><a href="" class="link">Products</a></li>
-            <li><a href="" class="link">Contacts</a></li>
-            <li><a href="" class="link">Career</a></li>
+            <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Agencja</a></li>
+            <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Portfolio</a></li>
+            <li class="mobile-menu__item"><a href="" class="mobile-menu__link">Kontakt</a></li>
         </ul>
+        <div class="menu-mobile__container-second">
+        <ul class="menu-mobile__contact-navi">
+        <a class="mobile-menu__contact-link" href="tel:+48111111111"> +48 111 111 111</a>
+        <a class="mobile-menu__contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </ul>
+        <ul class="menu-mobile__social-list">
+        <a class="menu-mobile__social-link" href="">Instagram</a>
+        <a class="menu-mobile__social-link" href="">Twitter</a>
+        <a class="menu-mobile__social-link" href="">Facebook</a>
+        <a class="menu-mobile__social-link" href="" >Linkedin</a>
+    </ul>
+    </div>
     </div>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
         integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="

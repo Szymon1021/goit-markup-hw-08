@@ -16,6 +16,10 @@
     background-size: cover;
     padding-left: 0px;
     gap: 15px;
+
+    @media screen and (min-width: 1200px) {
+        gap: 30px;
+    }
 }
 
 .clients__list-item {
@@ -37,5 +41,8 @@
         cursor: pointer;
         }
     
+                @media screen and (min-width: 1200px) {
+                    width: 170px;
+                }
 }
 

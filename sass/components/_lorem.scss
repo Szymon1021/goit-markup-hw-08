@@ -119,13 +119,16 @@
 @media screen and (min-width: 1200px) {
     .lorem {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
+            flex-direction: row;
     
     
             &__list {
                 width: 270px;
                 display: flex;
                 flex-wrap: wrap;
+                margin-left: 0px;
+                margin-right: 0px;
             }
     
             &__icon {
